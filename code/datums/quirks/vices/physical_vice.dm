@@ -38,9 +38,6 @@
 	name = "Cyclops (R)"
 	desc = "I lost my right eye long ago. But it made me great at noticing things."
 	point_value = 2
-	incompatible_quirks = list(
-		/datum/quirk/boon/night_vision
-	)
 
 /datum/quirk/vice/cyclops_right/on_spawn()
 	if(!ishuman(owner))
@@ -59,9 +56,6 @@
 	name = "Cyclops (L)"
 	desc = "I lost my left eye long ago. But it made me great at noticing things."
 	point_value = 2
-	incompatible_quirks = list(
-		/datum/quirk/boon/night_vision
-	)
 
 /datum/quirk/vice/cyclops_left/on_spawn()
 	if(!ishuman(owner))
@@ -352,7 +346,7 @@
 			var/turf/key_location = pick(nearby_turfs)
 			K.forceMove(key_location)
 
-/datum/quirk/vice/nightmares
+/datum/quirk/vice/mares
 	name = "Nightmares"
 	desc = "You suffer from terrible nightmares. You scream in your sleep and take longer to rest."
 	point_value = 1
