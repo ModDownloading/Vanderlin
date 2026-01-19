@@ -73,10 +73,20 @@
 	desc = "Your appearance turns heads... in all the wrong ways. With features ranging from unsightly to grotesque, you likely have yet to find anyone impressed with your looks."
 
 /datum/quirk/peculiarity/ugly/on_spawn()
+	if(!ishuman(owner))
+		return
+	var/mob/living/carbon/human/H = owner
+
 	REMOVE_TRAIT(H, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 	REMOVE_TRAIT(H, TRAIT_FISHFACE, TRAIT_GENERIC)
 
 	ADD_TRAIT(H, TRAIT_UGLY, TRAIT_GENERIC)
+
+/datum/quirk/peculiarity/ugly/on_remove()
+	if(!ishuman(owner))
+		return
+	var/mob/living/carbon/human/H = owner
+	REMOVE_TRAIT(H, TRAIT_UGLY, TRAIT_GENERIC)
 
 /datum/quirk/peculiarity/virgin
 	name = "Virgin"
