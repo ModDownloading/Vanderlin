@@ -346,7 +346,7 @@
 			var/turf/key_location = pick(nearby_turfs)
 			K.forceMove(key_location)
 
-/datum/quirk/vice/mares
+/datum/quirk/vice/nightmares
 	name = "Nightmares"
 	desc = "You suffer from terrible nightmares. You scream in your sleep and take longer to rest."
 	point_value = 1
