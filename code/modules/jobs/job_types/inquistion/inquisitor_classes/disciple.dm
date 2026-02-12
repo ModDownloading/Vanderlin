@@ -1,6 +1,8 @@
 /datum/job/advclass/sacrestant/disciple
 	title = "Disciple"
-	tutorial = "Some train their steel, others train their wits. You have honed your body itself into a weapon, anointing it with faithful markings to fortify your soul. You serve and train under the Ordo Benetarus, and one day you will be among Psydon’s most dauntless warriors."
+	tutorial = "Some train their steel, others train their wits. You have honed your body itself into a weapon, \
+	anointing it with faithful markings to fortify your soul. You serve and train under the Ordo Benetarus, \
+	and one day you will be among Psydon’s most dauntless warriors."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/disciple
@@ -13,14 +15,14 @@
 		STATKEY_SPD = -1
 	)
 	skills = list(
-		/datum/skill/misc/athletics = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/unarmed = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/wrestling = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/climbing = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/swimming = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/medicine = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/reading = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/craft/cooking = SKILL_LEVEL_NOVICE,
+		/datum/skill/misc/athletics = 3,
+		/datum/skill/combat/unarmed = 3,
+		/datum/skill/combat/wrestling = 3,
+		/datum/skill/misc/climbing = 3,
+		/datum/skill/misc/swimming = 3,
+		/datum/skill/misc/medicine = 2,
+		/datum/skill/misc/reading = 2,
+		/datum/skill/craft/cooking = 1,
 	)
 
 	traits = list(
