@@ -37,8 +37,12 @@
 
 /datum/outfit/watchman
 	name = "Men-at-arms Base"
+	head = /obj/item/clothing/head/helmet/kettle/slit/atarms
+	neck = /obj/item/clothing/neck/bevor
 	cloak = /obj/item/clothing/cloak/stabard/guard
 	wrists = /obj/item/clothing/wrists/bracers/leather
+	gloves = /obj/item/clothing/gloves/leather
+	shirt = /obj/item/clothing/armor/gambeson/arming
 	pants = /obj/item/clothing/pants/trou/leather/guard
 	shoes = /obj/item/clothing/shoes/boots
 	belt = /obj/item/storage/belt/leather
@@ -91,11 +95,7 @@
 
 /datum/outfit/watchman/pikeman
 	name = "Pikeman Men-At-Arms"
-	head = /obj/item/clothing/head/helmet/kettle/slit/atarms
 	armor = /obj/item/clothing/armor/chainmail/hauberk
-	shirt = /obj/item/clothing/armor/gambeson/arming
-	neck = /obj/item/clothing/neck/bevor
-	gloves = /obj/item/clothing/gloves/leather
 	beltr = /obj/item/weapon/sword/arming
 	backr = /obj/item/weapon/polearm/spear/billhook
 	backl = /obj/item/storage/backpack/satchel
@@ -141,10 +141,8 @@
 
 /datum/outfit/watchman/axeman
 	name = "Axeman Men-At-Arms"
-	head = /obj/item/clothing/head/helmet/kettle/slit/atarms
 	armor = /obj/item/clothing/armor/brigandine
 	shirt = /obj/item/clothing/armor/gambeson/heavy
-	neck = /obj/item/clothing/neck/bevor
 	gloves = /obj/item/clothing/gloves/chain
 	backl = /obj/item/storage/backpack/satchel
 	backr = /obj/item/weapon/greataxe/steel
@@ -187,12 +185,8 @@
 
 /datum/outfit/watchman/ranger
 	name = "Archer Men-At-Arms"
-	head = /obj/item/clothing/head/helmet/kettle/slit/atarms
 	armor = /obj/item/clothing/armor/leather/splint
-	shirt = /obj/item/clothing/armor/gambeson/arming
 	beltr = /obj/item/weapon/mace/cudgel
-	neck = /obj/item/clothing/neck/bevor
-	gloves = /obj/item/clothing/gloves/leather
 	backpack_contents = list(
 		/obj/item/weapon/knife/dagger/steel/special = 1
 	)
@@ -244,11 +238,7 @@
 
 /datum/outfit/watchman/swordsman
 	name = "Swordsman Men-At-Arms"
-	head = /obj/item/clothing/head/helmet/kettle/slit/atarms
 	armor = /obj/item/clothing/armor/chainmail/hauberk
-	shirt = /obj/item/clothing/armor/gambeson/arming
-	neck = /obj/item/clothing/neck/bevor
-	gloves = /obj/item/clothing/gloves/leather
 	beltr = /obj/item/weapon/sword/arming
 	backr = /obj/item/weapon/shield/heater
 	backl = /obj/item/storage/backpack/satchel
