@@ -1,5 +1,5 @@
 /datum/job/orthodoxist
-	title = "Sacrestants"
+	title = "Sacrestant"
 	department_flag = INQUISITION
 	faction = "Station"
 	total_positions = 2 // TWO GOONS!!
@@ -11,7 +11,9 @@
 		/datum/patron/psydon
 	) // no extremist psydon because you've been brought up right
 
-	tutorial = "A student of the Oratorium in training to become a full Inquisitor. You’ve come here under the stern gaze of the Herr Präfekt to prove your wits and skill. This is your week. You’re going to take your place among the blades of Psydon."
+	tutorial = "A student of the Oratorium in training to become a full Inquisitor. \
+	You’ve come here under the stern gaze of the Herr Präfekt to prove your wits and skill. \
+	This is your week. You’re going to take your place among the blades of Psydon."
 	selection_color = JCOLOR_INQUISITION
 
 	outfit = null
