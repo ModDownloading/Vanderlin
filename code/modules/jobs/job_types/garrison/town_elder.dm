@@ -84,7 +84,11 @@
 /datum/job/advclass/town_elder/mayor
 	title = "Mayor"
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
-	tutorial = "Before politics, you were a bard, your voice stirred hearts, your tales traveled farther than your feet ever could. You carved your name in history not with steel, but with stories that moved kings and commoners alike. In time, your charisma became counsel, your songs gave way to speeches. Decades later, your skill in diplomacy and trade earned you nobility, and with it, the title of Mayor. Now, you lead not from a stage, but from the heart of the people you once sang for."
+	tutorial = "Before politics, you were a bard, your voice stirred hearts, your tales traveled farther than your feet ever could. \
+	You carved your name in history not with steel, but with stories that moved kings and commoners alike. \
+	In time, your charisma became counsel, your songs gave way to speeches. \
+	Decades later, your skill in diplomacy and trade earned you nobility, and with it, the title of Mayor. \
+	Now, you lead not from a stage, but from the heart of the people you once sang for."
 	outfit = /datum/outfit/town_elder/mayor
 	category_tags = list(CTAG_TOWN_ELDER)
 
@@ -151,7 +155,11 @@
 
 /datum/job/advclass/town_elder/master_of_crafts_and_labor //A Job meant to guide and help new players in multiple areas heavy RNG so it can range from Average to Master.
 	title = "Master of Crafts and Labor"
-	tutorial = "You were one of the hardest-working individuals in the city, there isn't a single job you haven't done. From farming and butchery to alchemy, blacksmithing, cooking, and even medicine, your vast knowledge made you a guiding light for the people. Yet amid your labors, it was your songs that bound the workers together: rhythmic chants in the forge, lullabies in the sick wards, ballads hummed in the fields. Your voice became a beacon of focus and unity. Recognizing both your wisdom and your spirit, the townsfolk turned to you for guidance. Now, as the Master of Crafts and Labor, you oversee and uplift all who contribute to the city's survival. Lead them well."
+	tutorial = "You were one of the hardest-working individuals in the city, there isn't a single job you haven't done. \
+	From farming and butchery to alchemy, blacksmithing, cooking, and even medicine, your vast knowledge made you a guiding light for the people. \
+	Yet amid your labors, it was your songs that bound the workers together: rhythmic chants in the forge, lullabies in the sick wards, ballads hummed in the fields. \
+	Your voice became a beacon of focus and unity. Recognizing both your wisdom and your spirit, the townsfolk turned to you for guidance. \
+	Now, as the Master of Crafts and Labor, you oversee and uplift all who contribute to the city's survival. Lead them well."
 	outfit = /datum/outfit/town_elder/master_of_crafts_and_labor
 	category_tags = list(CTAG_TOWN_ELDER)
 	jobstats = list(
@@ -231,7 +239,11 @@
 
 /datum/job/advclass/town_elder/hearth_acolyte //An acolyte that left the church and now serve and help the town people.
 	title = "Hearth Acolyte"
-	tutorial = "As an Acolyte, you dedicated your life to faith and service, expecting nothing in return. When you saved a noble, they repaid you with a home and gold, but you accepted it as the will of the Ten. Though you stepped away from the Church, you found a new purpose, not in grand temples, but in the rhythm of the streets. Your voice, once raised in hymns and prayers, now carries through alleyways and taverns, offering solace in melody and verse. Whether through healing, wisdom, or song, your faith endures. Only now, your congregation is the town itself."
+	tutorial = "As an Acolyte, you dedicated your life to faith and service, expecting nothing in return. \
+	When you saved a noble, they repaid you with a home and gold, but you accepted it as the will of the Ten. \
+	Though you stepped away from the Church, you found a new purpose, not in grand temples, but in the rhythm of the streets. \
+	Your voice, once raised in hymns and prayers, now carries through alleyways and taverns, offering solace in melody and verse. \
+	Whether through healing, wisdom, or song, your faith endures. Only now, your congregation is the town itself."
 	outfit = /datum/outfit/town_elder/hearth_acolyte
 	category_tags = list(CTAG_TOWN_ELDER)
 	allowed_patrons = ALL_TEMPLE_PATRONS
@@ -397,7 +409,10 @@
 
 /datum/job/advclass/town_elder/lorekeeper
 	title = "Lorekeeper"
-	tutorial = "Your tales once lit up taverns, your ballads echoed through cities, and your curiosity led you across kingdoms. But the stage grows quiet, and your thirst for stories has shifted. Now, you collect history instead of applause, recording the town's past, preserving its legends, and guiding the present with the wisdom of ages. In a world where memory is power, you are its guardian."
+	tutorial = "Your tales once lit up taverns, your ballads echoed through cities, and your curiosity led you across kingdoms. \
+	But the stage grows quiet, and your thirst for stories has shifted. \
+	Now, you collect history instead of applause, recording the town's past, preserving its legends, and guiding the present with the wisdom of ages. \
+	In a world where memory is power, you are its guardian."
 	outfit = /datum/outfit/town_elder/lorekeeper
 	category_tags = list(CTAG_TOWN_ELDER)
 
