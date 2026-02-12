@@ -41,6 +41,8 @@
 
 /datum/outfit/forestguard
 	name = "Forest Guard Base"
+	head = /obj/item/clothing/head/helmet/medium/decorated/skullmet
+	armor = /obj/item/clothing/armor/leather/advanced/forrester
 	pants = /obj/item/clothing/pants/trou/leather
 	shoes = /obj/item/clothing/shoes/boots
 	wrists = /obj/item/clothing/wrists/bracers/leather
@@ -60,7 +62,9 @@
 
 /datum/job/advclass/forestguard/infantry
 	title = "Forest Ravager"
-	tutorial = "In the goblin wars- you alone were deployed to the front lines, caving skulls and chopping legs - saving your family-at-arms through your reckless diversions. With your bloodied axe and flail, every swing and crack was another hatch on your tally. Now that the War's over, even with your indomitable spirit and tireless zeal - let's see if that still rings true."
+	tutorial = "In the goblin wars- you alone were deployed to the front lines, caving skulls and chopping legs - \
+	saving your family-at-arms through your reckless diversions. With your bloodied axe and flail, every swing and crack was another hatch on your tally. \
+	Now that the War's over, even with your indomitable spirit and tireless zeal - let's see if that still rings true."
 	outfit = /datum/outfit/forestguard/infantry
 	category_tags = list(CTAG_FORGARRISON)
 	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
@@ -101,12 +105,10 @@
 
 /datum/outfit/forestguard/infantry
 	name = "Forest Ravager"
-	head = /obj/item/clothing/head/helmet/medium/decorated/skullmet
 	neck = /obj/item/clothing/neck/gorget
 	shirt = /obj/item/clothing/armor/chainmail/hauberk/iron
 	beltl = /obj/item/weapon/flail/militia
 	beltr = /obj/item/weapon/axe/iron
-	armor = /obj/item/clothing/armor/leather/advanced/forrester
 	backr = /obj/item/weapon/shield/heater
 	backpack_contents = list(
 		/obj/item/weapon/knife/hunting = 1,
@@ -116,7 +118,8 @@
 
 /datum/job/advclass/forestguard/ranger
 	title = "Forest Ranger"
-	tutorial = "In the Wars you were always one of the fastest, as well as one of the frailest in the platoon. Your trusty bow has served you well- of course, none you've set your sights on have found the tongue to disagree."
+	tutorial = "In the Wars you were always one of the fastest, as well as one of the frailest in the platoon. \
+	Your trusty bow has served you well- of course, none you've set your sights on have found the tongue to disagree."
 	outfit = /datum/outfit/forestguard/ranger
 	category_tags = list(CTAG_FORGARRISON)
 	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
@@ -154,12 +157,10 @@
 
 /datum/outfit/forestguard/ranger
 	name = "Forest Ranger"
-	head = /obj/item/clothing/head/helmet/medium/decorated/skullmet
 	neck = /obj/item/clothing/neck/highcollier
 	shirt = /obj/item/clothing/armor/gambeson
 	beltl = /obj/item/weapon/knife/cleaver/combat
 	beltr = /obj/item/ammo_holder/quiver/arrows
-	armor = /obj/item/clothing/armor/leather/advanced/forrester
 	backr = /obj/item/gun/ballistic/revolver/grenadelauncher/bow/long
 	backpack_contents = list(
 		/obj/item/weapon/knife/hunting = 1,
@@ -208,11 +209,9 @@
 
 /datum/outfit/forestguard/reaver
 	name = "Forest Reaver"
-	head = /obj/item/clothing/head/helmet/medium/decorated/skullmet
 	neck = /obj/item/clothing/neck/gorget
 	shirt = /obj/item/clothing/armor/chainmail/hauberk/iron
 	beltl = /obj/item/weapon/mace/steel/morningstar
-	armor = /obj/item/clothing/armor/leather/advanced/forrester
 	backr = /obj/item/weapon/polearm/halberd/bardiche/woodcutter
 	beltr = /obj/item/weapon/axe/iron
 	backpack_contents = list(
@@ -223,7 +222,9 @@
 
 /datum/job/advclass/forestguard/ruffian
 	title = "Forest Ruffian"
-	tutorial = "For your terrible orphan pranks and antics in the city, you were rounded up by the city's Watch and put to work in the infamous forest garrison. \n\n A ruffian by circumstance, a proven listener of war stories - you might just become more than a troublemaker."
+	tutorial = "For your terrible orphan pranks and antics in the city, you were rounded up by the city's Watch and put to work in the infamous forest garrison. \
+	\n\n 
+	A ruffian by circumstance, a proven listener of war stories - you might just become more than a troublemaker."
 	outfit = /datum/outfit/forestguard/ruffian
 	category_tags = list(CTAG_FORGARRISON)
 	allowed_ages = list(AGE_CHILD)
