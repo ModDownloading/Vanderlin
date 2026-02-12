@@ -65,16 +65,12 @@
 	neck = /obj/item/storage/belt/pouch/coins/poor
 	head = /obj/item/clothing/head/brimmed
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak/colored/brown
-
 	backr = /obj/item/storage/backpack/satchel
 	backl = /obj/item/gun/ballistic/revolver/grenadelauncher/bow
-
 	belt = /obj/item/storage/belt/leather
 	beltr = /obj/item/ammo_holder/quiver/arrows
 	beltl = /obj/item/storage/meatbag
-
 	gloves = /obj/item/clothing/gloves/leather
-
 	backpack_contents = list(
 		/obj/item/flint = 1,
 		/obj/item/bait = 1,
