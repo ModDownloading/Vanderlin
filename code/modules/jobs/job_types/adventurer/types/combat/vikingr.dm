@@ -7,23 +7,28 @@
 	cmode_music = 'sound/music/cmode/adventurer/CombatWarrior.ogg'
 	total_positions = 0 //Kaledon isn't in
 
+	skills = list(
+		/datum/skill/combat/shields = 3,
+		/datum/skill/misc/swimming = 3,
+		/datum/skill/misc/climbing = 2,
+		/datum/skill/combat/wrestling = 3,
+		/datum/skill/combat/unarmed = 2,
+		/datum/skill/misc/athletics = 3,
+		/datum/skill/combat/swords = 2,
+		/datum/skill/misc/reading = 1,
+		/datum/skill/combat/axesmaces = 2
+	)
+
 /datum/outfit/adventurer/vikingr/pre_equip(mob/living/carbon/human/H)
 	..()
 	H.adjust_skillrank(/datum/skill/combat/knives, pick(1,1,2), TRUE)
-	H.adjust_skillrank(/datum/skill/combat/shields, 3, TRUE)
-	H.adjust_skillrank(/datum/skill/misc/swimming, 3, TRUE)
-	H.adjust_skillrank(/datum/skill/misc/climbing, 2, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
-	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/swords, 2, TRUE)
-	H.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/axesmaces, 2, TRUE)
-
 	if(H.gender == FEMALE)
 		H.underwear = "Femleotard"
 		H.underwear_color = CLOTHING_SOOT_BLACK
 		H.update_body()
+
+
+/datum/outfit/adventurer/vikingr
 	shoes = /obj/item/clothing/shoes/boots
 	gloves = /obj/item/clothing/gloves/leather
 	wrists = /obj/item/clothing/wrists/bracers/leather
@@ -33,6 +38,7 @@
 	pants = /obj/item/clothing/pants/trou/leather
 	backl = /obj/item/weapon/shield/wood
 	head = /obj/item/clothing/head/helmet/nasal
+	beltr = /obj/item/storage/belt/pouch/coins/poor
 
 /datum/outfit/adventurer/vikingr/pre_equip(mob/living/carbon/human/H, visuals_only)
 	. = ..()
@@ -40,19 +46,16 @@
 
 	switch(weapontype)
 		if("Bow")
-			beltl = /obj/item/ammo_holder/quiver/arrows // womp womp, guess bow users cant have coins
+			beltl = /obj/item/ammo_holder/quiver/arrows 
 			backr = /obj/item/gun/ballistic/revolver/grenadelauncher/bow/long
 			head = /obj/item/clothing/head/roguehood/colored/black
-			beltr = /obj/item/weapon/sword/iron
+			beltr = /obj/item/weapon/sword/iron // womp womp, guess bow users cant have coins
 		if("Axe")
 			backr = /obj/item/weapon/polearm/halberd/bardiche/woodcutter
-			beltr = /obj/item/storage/belt/pouch/coins/poor
-			head = /obj/item/clothing/head/helmet/nasal
 			beltl = /obj/item/weapon/sword/iron
 		if("Claymore")
 			backr = /obj/item/weapon/sword/long/greatsword/ironclaymore
 			beltl = /obj/item/weapon/axe/iron
-			beltr = /obj/item/storage/belt/pouch/coins/poor
-			head = /obj/item/clothing/head/helmet/nasal
+			
 
 
