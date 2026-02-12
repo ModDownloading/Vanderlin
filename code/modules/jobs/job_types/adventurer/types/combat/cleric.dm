@@ -136,13 +136,10 @@
 
 /datum/outfit/adventurer/cleric
 	name = "Cleric (Adventurer)"
-	head = /obj/item/clothing/head/helmet/skullcap
-	armor = /obj/item/clothing/armor/chainmail/iron
 	shirt = /obj/item/clothing/armor/gambeson
 	gloves = /obj/item/clothing/gloves/leather
 	pants = /obj/item/clothing/pants/trou/leather
 	shoes = /obj/item/clothing/shoes/boots/leather
-	neck = /obj/item/clothing/neck/chaincoif/iron
 	belt = /obj/item/storage/belt/leather/adventurer
 	backl = /obj/item/storage/backpack/satchel
 	r_hand = /obj/item/flashlight/flare/torch/prelit
