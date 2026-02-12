@@ -24,17 +24,17 @@
 	)
 
 	skills = list(
-		/datum/skill/combat/wrestling = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/unarmed = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/knives = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/axesmaces = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/shields = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/swimming = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/climbing = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/athletics = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/reading = SKILL_LEVEL_NOVICE,
-		/datum/skill/combat/firearms = SKILL_LEVEL_NOVICE,
-		/datum/skill/misc/medicine = SKILL_LEVEL_NOVICE
+		/datum/skill/combat/wrestling = 2,
+		/datum/skill/combat/unarmed = 3,
+		/datum/skill/combat/knives = 2,
+		/datum/skill/combat/axesmaces = 3,
+		/datum/skill/combat/shields = 3,
+		/datum/skill/misc/swimming = 2,
+		/datum/skill/misc/climbing = 2,
+		/datum/skill/misc/athletics = 3,
+		/datum/skill/misc/reading = 1,
+		/datum/skill/combat/firearms = 1,
+		/datum/skill/misc/medicine = 1
 	)
 
 /datum/job/advclass/adept/bzealot/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -48,7 +48,6 @@
 	name = "Brutal Zealot (Adept)"
 	belt = /obj/item/storage/belt/leather
 	head = /obj/item/clothing/head/adeptcowl
-	neck = /obj/item/clothing/neck/gorget/explosive
 	armor = /obj/item/clothing/armor/chainmail
 	cloak = /obj/item/clothing/cloak/tabard/adept
 	beltl = /obj/item/weapon/mace/spiked
