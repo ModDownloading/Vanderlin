@@ -1,6 +1,9 @@
 /datum/job/advclass/combat/sfighter
 	title = "Fighter"
-	tutorial = "Wandering sellswords, foolhardy gloryhounds, deserters, armed peasants... many and varied folk turn to the path of the fighter. Very few meet anything greater than the bottom of a tankard or the wrong end of a noose. ¿why do you fight? Gold? Fame? Justice? or because all you got left are your hands and the will to use them?"
+	tutorial = "Wandering sellswords, foolhardy gloryhounds, deserters, armed peasants... many and varied folk turn to the path of the fighter. \
+	Very few meet anything greater than the bottom of a tankard or the wrong end of a noose. \
+	Why do you fight? Gold? Fame? Justice? \
+	Or is it because all you got left are your hands and the will to use them?"
 	allowed_races = RACES_PLAYER_NONEXOTIC
 	outfit = /datum/outfit/adventurer/sfighter
 	category_tags = list(CTAG_ADVENTURER)
