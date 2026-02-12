@@ -1,7 +1,10 @@
 
 /datum/job/advclass/puritan/inspector
 	title = "Inquisitor"
-	tutorial = "The head of the Ordo Venatari, your lessons are of a subtle touch and a light step. A silver dagger in the right place at the right time is all that is needed. Preparation is key, and this is something you impart on your students. Be always ready, be always waiting, and always be vigilant."
+	tutorial = "The head of the Ordo Venatari, your lessons are of a subtle touch and a light step. \
+	A silver dagger in the right place at the right time is all that is needed. Preparation is key, \
+	and this is something you impart on your students. \
+	Be always ready, be always waiting, and always be vigilant."
 	outfit = /datum/outfit/inquisitor/inspector
 	spells = list(/datum/action/cooldown/spell/undirected/list_target/convert_role/adept)
 	category_tags = list(CTAG_PURITAN)
@@ -27,18 +30,18 @@
 	) //10 Statline
 
 	skills = list(
-		/datum/skill/misc/lockpicking = SKILL_LEVEL_MASTER,
-		/datum/skill/misc/sneaking = SKILL_LEVEL_MASTER,
-		/datum/skill/combat/knives = SKILL_LEVEL_EXPERT,
-		/datum/skill/misc/climbing = SKILL_LEVEL_EXPERT,
-		/datum/skill/misc/athletics = SKILL_LEVEL_EXPERT,
-		/datum/skill/combat/crossbows = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/wrestling = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/unarmed = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/reading = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/medicine = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/sewing = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/firearms = SKILL_LEVEL_EXPERT,
+		/datum/skill/misc/lockpicking = 5,
+		/datum/skill/misc/sneaking = 5,
+		/datum/skill/combat/knives = 4,
+		/datum/skill/misc/climbing = 4,
+		/datum/skill/misc/athletics = 4,
+		/datum/skill/combat/crossbows = 3,
+		/datum/skill/combat/wrestling = 3,
+		/datum/skill/combat/unarmed = 3,
+		/datum/skill/misc/reading = 3,
+		/datum/skill/misc/medicine = 3,
+		/datum/skill/misc/sewing = 2,
+		/datum/skill/combat/firearms = 4,
 	)
 
 /datum/job/advclass/puritan/inspector/after_spawn(mob/living/carbon/human/spawned, client/player_client)
