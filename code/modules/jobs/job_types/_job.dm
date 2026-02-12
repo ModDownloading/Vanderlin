@@ -300,12 +300,12 @@
 		spawned.set_skill_exp_multiplier(skill_type, skill_multipliers[skill_type])
 
 	for(var/X in peopleknowme)
-		for(var/datum/mind/MF in get_minds(X))
-			spawned.mind.person_knows_me(MF)
+		for(var/datum/mind/found_mind in get_minds(X))
+			spawned.mind.give_source_identity(found_mind)
 
 	for(var/X in peopleiknow)
-		for(var/datum/mind/MF in get_minds(X))
-			spawned.mind.i_know_person(MF)
+		for(var/datum/mind/found_mind in get_minds(X))
+			spawned.mind.learn_target_identity(found_mind)
 
 	// Ready up bonus
 	if(!spawned.islatejoin)
