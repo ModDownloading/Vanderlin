@@ -31,7 +31,7 @@
 
 /datum/outfit/guardsman
 	name = "City Watchmen Base"
-	cloak = /obj/item/clothing/cloak/half/guard
+	head = /obj/item/clothing/head/helmet/townbarbute
 	pants = /obj/item/clothing/pants/trou/leather/splint
 	wrists = /obj/item/clothing/wrists/bracers/ironjackchain
 	shoes = /obj/item/clothing/shoes/boots/armor/ironmaille
@@ -88,7 +88,6 @@
 
 /datum/outfit/guardsman/footman
 	name = "City Watch Footman"
-	head = /obj/item/clothing/head/helmet/townbarbute
 	neck = /obj/item/clothing/neck/gorget
 	armor = /obj/item/clothing/armor/cuirass/iron
 	shirt = /obj/item/clothing/armor/gambeson
@@ -136,7 +135,6 @@
 
 /datum/outfit/guardsman/archer
 	name = "City Watch Archer"
-	head = /obj/item/clothing/head/helmet/townbarbute
 	neck = /obj/item/clothing/neck/chaincoif
 	armor = /obj/item/clothing/armor/gambeson/heavy
 	backr = /obj/item/gun/ballistic/revolver/grenadelauncher/bow
@@ -185,7 +183,6 @@
 
 /datum/outfit/guardsman/pikeman
 	name = "City Watch Pikeman"
-	head = /obj/item/clothing/head/helmet/townbarbute
 	armor = /obj/item/clothing/armor/cuirass/iron
 	shirt = /obj/item/clothing/armor/gambeson
 	neck = /obj/item/clothing/neck/gorget
