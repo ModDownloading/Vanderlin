@@ -66,7 +66,6 @@
 	name = "Dungeoneer"
 	head = /obj/item/clothing/head/dungeoneer
 	neck = /obj/item/clothing/neck/coif
-	wrists = /obj/item/clothing/wrists/bracers/leather
 	cloak = /obj/item/clothing/cloak/stabard/colored/dungeon
 	armor = /obj/item/clothing/armor/cuirass/iron/rust
 	shirt = /obj/item/clothing/shirt/shortshirt/colored/merc
@@ -77,4 +76,8 @@
 	beltr = /obj/item/weapon/whip/antique
 	beltl = /obj/item/storage/belt/pouch/coins/poor
 	backr = /obj/item/storage/backpack/satchel	// lack of satchel requires dealing with the merchant to correct, which requires entering town; not ideal. N.
-	backpack_contents = list(/obj/item/clothing/head/menacing, /obj/item/storage/keyring/dungeoneer, /obj/item/weapon/knuckles)
+	backpack_contents = list(
+		/obj/item/clothing/head/menacing, 
+		/obj/item/storage/keyring/dungeoneer, 
+		/obj/item/weapon/knuckles
+	)
