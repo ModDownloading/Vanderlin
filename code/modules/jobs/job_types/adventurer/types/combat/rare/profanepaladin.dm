@@ -1,6 +1,9 @@
 /datum/job/advclass/combat/profanepaladin
 	title = "Profane Paladin"
-	tutorial = "There are those who are so dedicated to the worship and service of their inhumen god, that they have become famous amongst their followers, and infamous amongst the common men and women. These Profane Paladins bear the armour and marks of their respective god, travelling across the lands to preach and slay in their name. Naturally, they are branded a heretic by the Ten. Expect no quarter."
+	tutorial = "There are those who are so dedicated to the worship and service of their inhumen god, \
+	that they have become famous amongst their followers, and infamous amongst the common men and women. \
+	These Profane Paladins bear the armour and marks of their respective god, travelling across the lands to preach and slay in their name. \
+	Naturally, they are branded a heretic by the Ten. Expect no quarter."
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/adventurer/profanepaladin
 	total_positions = 1
@@ -69,14 +72,12 @@
 
 /datum/outfit/adventurer/profanepaladin
 	name = "Profane Paladin (Adventurer)"
-
 	shirt = /obj/item/clothing/armor/chainmail
 	belt = /obj/item/storage/belt/leather/steel
 	beltl = /obj/item/storage/belt/pouch/coins/mid
 	ring = /obj/item/clothing/ring/silver/toper
 	neck = /obj/item/clothing/neck/chaincoif
 	backl = /obj/item/weapon/sword/long/judgement/evil
-
 	head = /obj/item/clothing/head/helmet/heavy/bucket
 	armor = /obj/item/clothing/armor/plate
 	gloves = /obj/item/clothing/gloves/plate
@@ -116,7 +117,3 @@
 		if(/datum/patron/inhumen/baotha)
 			head = /obj/item/clothing/head/helmet/heavy/baotha
 			mask = /obj/item/clothing/face/spectacles/sglasses
-			armor = /obj/item/clothing/armor/plate
-			gloves = /obj/item/clothing/gloves/plate
-			pants = /obj/item/clothing/pants/platelegs
-			shoes = /obj/item/clothing/shoes/boots/armor
