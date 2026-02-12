@@ -53,7 +53,9 @@
 
 /datum/job/advclass/veteran/battlemaster
 	title = "Veteran Battlemaster"
-	tutorial = "You have served under a hundred masters, some good, some bad. You were a general once. A marshal, a captain. To some a hero, others a monster. Something of the sorts. You made strategies, tactics, new innovations of war. A thousand new ways for one man to kill another. It still keeps you up at night."
+	tutorial = "You have served under a hundred masters, some good, some bad. You were a general once. A marshal, a captain. \
+	To some a hero, others a monster. Something of the sorts. You made strategies, tactics, new innovations of war. \
+	A thousand new ways for one man to kill another. It still keeps you up at night."
 	outfit = /datum/outfit/vet/battlemaster
 	category_tags = list(CTAG_VETERAN)
 
@@ -117,7 +119,9 @@
 
 /datum/job/advclass/veteran/footman
 	title = "Retired Footman"
-	tutorial = "You served on the fields of battle as no heroic knight steadfast in shining armor, but a mere mortal clad in whatever cheap armor coin could buy. You fought in formation as a member of a unit, and through discipline, have won numerous battles. Maybe one day you even served as the captain of your unit. You specialize in polearms and bows."
+	tutorial = "You served on the fields of battle as no heroic knight steadfast in shining armor, but a mere mortal clad in whatever cheap armor coin could buy. \
+	You fought in formation as a member of a unit, and through discipline, have won numerous battles. \
+	Maybe one day you even served as the captain of your unit. You specialize in polearms and bows."
 	outfit = /datum/outfit/vet/footman
 	category_tags = list(CTAG_VETERAN)
 
@@ -186,7 +190,9 @@
 
 /datum/job/advclass/veteran/calvaryman
 	title = "Tarnished Knight"
-	tutorial = "You were once a member of a knightly calvary regiment, a prestigious title. You were ontop of the world, the townspeople rejoiced when you rode through their streets. Now, all you can hear is the screams of your brothers-in-arms as they fell. You specialize in mounted warfare."
+	tutorial = "You were once a member of a knightly calvary regiment, a prestigious title. \
+	You were ontop of the world, the townspeople rejoiced when you rode through their streets. \
+	Now, all you can hear is the screams of your brothers-in-arms as they fell. You specialize in mounted warfare."
 	outfit = /datum/outfit/vet/calvaryman
 	category_tags = list(CTAG_VETERAN)
 
@@ -272,7 +278,8 @@
 
 /datum/job/advclass/veteran/merc
 	title = "Retired Mercenary"
-	tutorial = "You were a sell-sword, a warrior of coin. Your pockets were never light, you always had a warm place to stay and food in your belly, but you knew that every battle could be your last. You're the last of your unit, and you can't help but regret it. You specialize in swords and polearms, or axes and polearms."
+	tutorial = "You were a sell-sword, a warrior of coin. Your pockets were never light, you always had a warm place to stay and food in your belly, \
+	but you knew that every battle could be your last. You're the last of your unit, and you can't help but regret it. You specialize in swords and polearms, or axes and polearms."
 	outfit = /datum/outfit/vet/merc
 	allowed_races = RACES_PLAYER_GRENZ
 	category_tags = list(CTAG_VETERAN)
@@ -291,7 +298,7 @@
 		/datum/skill/combat/shields = 4,
 		/datum/skill/combat/wrestling = 4,
 		/datum/skill/combat/unarmed = 4,
-		/datum/skill/combat/polearms = 4,
+		/datum/skill/combat/polearms = 5,
 		/datum/skill/combat/bows = 3,
 		/datum/skill/combat/crossbows = 3,
 		/datum/skill/combat/whipsflails = 3,
@@ -328,12 +335,10 @@
 	switch(weapon_choice)
 		if("Zweihander")
 			spawned.adjust_skillrank(/datum/skill/combat/swords, 1, TRUE)
-			spawned.adjust_skillrank(/datum/skill/combat/polearms, 1, TRUE)
 			spawned.adjust_stat_modifier(STATMOD_JOB, STATKEY_STR, 1)
 		if("Halberd")
 			spawned.put_in_hands(new /obj/item/weapon/polearm/halberd(get_turf(spawned)), TRUE)
 			spawned.adjust_skillrank(/datum/skill/combat/axesmaces, 1, TRUE)
-			spawned.adjust_skillrank(/datum/skill/combat/polearms, 1, TRUE)
 
 /datum/outfit/vet/merc
 	name = "Retired Mercenary (Veteran)"
