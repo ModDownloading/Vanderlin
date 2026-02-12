@@ -1,6 +1,9 @@
 /datum/job/advclass/sacrestant/confessor
 	title = "Confessor"
-	tutorial = "Psydonite hunters, unmatched in the fields of subterfuge and investigation. There is no suspect too powerful to investigate, no room too guarded to infiltrate, and no weakness too hidden to exploit. The Ordo Venatari trained you, and this, your final hunt as a student, will prove the wisdom of their teachings."
+	tutorial = "Psydonite hunters, unmatched in the fields of subterfuge and investigation. \
+	There is no suspect too powerful to investigate, no room too guarded to infiltrate, \
+	and no weakness too hidden to exploit. The Ordo Venatari trained you, and this, \
+	your final hunt as a student, will prove the wisdom of their teachings."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/confessor
@@ -14,16 +17,16 @@
 	) //4 Statline
 
 	skills = list(
-		/datum/skill/combat/wrestling = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/unarmed = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/reading = SKILL_LEVEL_NOVICE,
-		/datum/skill/misc/athletics = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/climbing = SKILL_LEVEL_EXPERT,
-		/datum/skill/misc/medicine = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/sneaking = SKILL_LEVEL_EXPERT,
-		/datum/skill/misc/stealing = SKILL_LEVEL_EXPERT,
-		/datum/skill/misc/lockpicking = SKILL_LEVEL_EXPERT,
-		/datum/skill/combat/crossbows = SKILL_LEVEL_JOURNEYMAN,
+		/datum/skill/combat/wrestling = 2,
+		/datum/skill/combat/unarmed = 2,
+		/datum/skill/misc/reading = 1,
+		/datum/skill/misc/athletics = 3,
+		/datum/skill/misc/climbing = 4,
+		/datum/skill/misc/medicine = 3,
+		/datum/skill/misc/sneaking = 4,
+		/datum/skill/misc/stealing = 4,
+		/datum/skill/misc/lockpicking = 4,
+		/datum/skill/combat/crossbows = 3,
 	)
 
 	traits = list(
