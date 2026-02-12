@@ -7,21 +7,21 @@
 	cmode_music = 'sound/music/cmode/adventurer/CombatRogue.ogg'
 
 	skills = list(
-		/datum/skill/combat/axesmaces = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/knives = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/crossbows = SKILL_LEVEL_NOVICE,
-		/datum/skill/combat/bows = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/athletics = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/wrestling = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/unarmed = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/swimming = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/climbing = SKILL_LEVEL_MASTER,
-		/datum/skill/misc/reading = SKILL_LEVEL_NOVICE,
-		/datum/skill/misc/sneaking = SKILL_LEVEL_EXPERT,
-		/datum/skill/misc/stealing = SKILL_LEVEL_EXPERT,
-		/datum/skill/misc/lockpicking = SKILL_LEVEL_EXPERT,
-		/datum/skill/combat/firearms = SKILL_LEVEL_NOVICE,
-		/datum/skill/craft/traps = SKILL_LEVEL_APPRENTICE
+		/datum/skill/combat/axesmaces = 3,
+		/datum/skill/combat/knives = 2,
+		/datum/skill/combat/crossbows = 1,
+		/datum/skill/combat/bows = 3,
+		/datum/skill/misc/athletics = 3,
+		/datum/skill/combat/wrestling = 2,
+		/datum/skill/combat/unarmed = 2,
+		/datum/skill/misc/swimming = 2,
+		/datum/skill/misc/climbing = 5,
+		/datum/skill/misc/reading = 1,
+		/datum/skill/misc/sneaking = 4,
+		/datum/skill/misc/stealing = 4,
+		/datum/skill/misc/lockpicking = 4,
+		/datum/skill/combat/firearms = 1,
+		/datum/skill/craft/traps = 2
 	)
 
 	traits = list(
@@ -52,11 +52,9 @@
 	belt = /obj/item/storage/belt/leather
 	armor = /obj/item/clothing/armor/leather/splint
 	head = /obj/item/clothing/head/roguehood/leather
-	neck = /obj/item/clothing/neck/gorget/explosive
 	backr = /obj/item/gun/ballistic/revolver/grenadelauncher/bow
 	backl = /obj/item/ammo_holder/quiver/arrows
 	beltl = /obj/item/weapon/mace/cudgel
-	pants = /obj/item/clothing/pants/trou/leather
 	cloak = /obj/item/clothing/cloak/shredded
 	backpack_contents = list(
 		/obj/item/lockpick = 1,
