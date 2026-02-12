@@ -69,6 +69,10 @@
 		/obj/item/storage/backpack/satchel = ITEM_SLOT_BACK_L,
 		/obj/item/clothing/neck/gorget = ITEM_SLOT_NECK,
 		/obj/item/storage/belt/leather = ITEM_SLOT_BELT,
+		/obj/item/clothing/cloak/raincloak/furcloak = ITEM_SLOT_CLOAK,
+		/obj/item/gun/ballistic/revolver/grenadelauncher/bow = ITEM_SLOT_BACK_R,
+		/obj/item/weapon/sword/rapier/dec = ITEM_SLOT_BELT_R,
+		/obj/item/ammo_holder/quiver/arrows = ITEM_SLOT_BELT_L,
 	)
 
 	pack_backpack_contents = list(
@@ -102,30 +106,14 @@
 		picker.equip_to_slot_or_del(shirt, ITEM_SLOT_SHIRT, TRUE)
 		var/obj/item/clothing/head/hatfur/head = new()
 		picker.equip_to_slot_or_del(head, ITEM_SLOT_HEAD, TRUE)
-		var/obj/item/clothing/cloak/raincloak/furcloak/cloak = new()
-		picker.equip_to_slot_or_del(cloak, ITEM_SLOT_CLOAK, TRUE)
-		var/obj/item/gun/ballistic/revolver/grenadelauncher/bow/backr = new()
-		picker.equip_to_slot_or_del(backr, ITEM_SLOT_BACK_R, TRUE)
-		var/obj/item/weapon/sword/rapier/dec/beltr = new()
-		picker.equip_to_slot_or_del(beltr, ITEM_SLOT_BELT_R, TRUE)
-		var/obj/item/ammo_holder/quiver/arrows/beltl = new()
-		picker.equip_to_slot_or_del(beltl, ITEM_SLOT_BELT_L, TRUE)
 
 	if(picker.gender == MALE)
 		var/obj/item/clothing/pants/tights/colored/black/pants = new()
 		picker.equip_to_slot_or_del(pants, ITEM_SLOT_PANTS, TRUE)
 		var/obj/item/clothing/shirt/tunic/colored/random/shirt = new()
 		picker.equip_to_slot_or_del(shirt, ITEM_SLOT_SHIRT, TRUE)
-		var/obj/item/clothing/cloak/raincloak/furcloak/cloak = new()
-		picker.equip_to_slot_or_del(cloak, ITEM_SLOT_CLOAK, TRUE)
 		var/obj/item/clothing/head/fancyhat/head = new()
 		picker.equip_to_slot_or_del(head, ITEM_SLOT_HEAD, TRUE)
-		var/obj/item/gun/ballistic/revolver/grenadelauncher/bow/backr = new()
-		picker.equip_to_slot_or_del(backr, ITEM_SLOT_BACK_R, TRUE)
-		var/obj/item/weapon/sword/rapier/dec/beltr = new()
-		picker.equip_to_slot_or_del(beltr, ITEM_SLOT_BELT_R, TRUE)
-		var/obj/item/ammo_holder/quiver/arrows/beltl = new()
-		picker.equip_to_slot_or_del(beltl, ITEM_SLOT_BELT_L, TRUE)
 
 
 /datum/job_pack/bloodsucker_count
@@ -227,7 +215,7 @@
 	picker.adjust_skillrank(/datum/skill/misc/stealing, pick(4, 5), TRUE)
 	picker.adjust_skillrank(/datum/skill/misc/lockpicking, pick(1, 2, 3, 4, 5), TRUE)
 	picker.adjust_skillrank(/datum/skill/misc/climbing, pick(4, 5), TRUE)
-	picker.adjust_skillrank(/datum/skill/combat/wrestling, pick(3, 3, 4, 4), TRUE)
+	picker.adjust_skillrank(/datum/skill/combat/wrestling, pick(3, 4), TRUE)
 	picker.adjust_skillrank(/datum/skill/combat/unarmed, pick(3, 4, 5, 5), TRUE)
 
 	picker.adjust_skillrank(/datum/skill/craft/crafting, 4, TRUE)
