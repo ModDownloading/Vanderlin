@@ -50,6 +50,7 @@
 	neck = /obj/item/storage/belt/pouch/coins/poor
 	armor = /obj/item/clothing/armor/gambeson/light/striped
 	head = /obj/item/clothing/head/fisherhat
+	shoes = /obj/item/clothing/shoes/boots/leather
 	belt = /obj/item/storage/belt/leather
 	beltr = /obj/item/cooking/pan
 	beltl = /obj/item/flint
@@ -66,14 +67,12 @@
 	if(equipped_human.gender == MALE)
 		pants = /obj/item/clothing/pants/tights/colored/random
 		shirt = /obj/item/clothing/shirt/shortshirt/colored/random
-		shoes = /obj/item/clothing/shoes/boots/leather
 		backpack_contents += list(
 			/obj/item/weapon/knife/villager = 1,
 			/obj/item/recipe_book/survival = 1
 		)
 	else
 		shirt = /obj/item/clothing/shirt/dress/gen/colored/random
-		shoes = /obj/item/clothing/shoes/boots/leather
 		backpack_contents += list(
 			/obj/item/weapon/knife/hunting = 1
 		)
