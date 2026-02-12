@@ -7,22 +7,22 @@
 	cmode_music = 'sound/music/cmode/towner/CombatGaffer.ogg'
 
 	skills = list(
-		/datum/skill/combat/swords = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/whipsflails = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/knives = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/wrestling = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/unarmed = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/athletics = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/swimming = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/climbing = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/riding = SKILL_LEVEL_NOVICE,
-		/datum/skill/craft/crafting = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/craft/cooking = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/sewing = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/medicine = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/labor/mathematics = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/reading = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/firearms = SKILL_LEVEL_NOVICE
+		/datum/skill/combat/swords = 3,
+		/datum/skill/combat/whipsflails = 2,
+		/datum/skill/combat/knives = 2,
+		/datum/skill/combat/wrestling = 2,
+		/datum/skill/combat/unarmed = 2,
+		/datum/skill/misc/athletics = 3,
+		/datum/skill/misc/swimming = 2,
+		/datum/skill/misc/climbing = 3,
+		/datum/skill/misc/riding = 1,
+		/datum/skill/craft/crafting = 2,
+		/datum/skill/craft/cooking = 2,
+		/datum/skill/misc/sewing = 2,
+		/datum/skill/misc/medicine = 2,
+		/datum/skill/labor/mathematics = 2,
+		/datum/skill/misc/reading = 2,
+		/datum/skill/combat/firearms = 1
 	)
 
 	traits = list(
@@ -53,10 +53,8 @@
 	belt = /obj/item/storage/belt/leather
 	armor = /obj/item/clothing/armor/leather/jacket/leathercoat/renegade
 	head = /obj/item/clothing/head/helmet/leather/tricorn
-	neck = /obj/item/clothing/neck/gorget/explosive
 	beltl = /obj/item/weapon/sword/short/iron
 	l_hand = /obj/item/weapon/whip // Great length, they don't need to be next to a person to help in apprehending them.
-	pants = /obj/item/clothing/pants/trou/leather
 	backpack_contents = list(
 		/obj/item/storage/keyring/adept = 1,
 		/obj/item/weapon/knife/dagger/silver/psydon = 1,
