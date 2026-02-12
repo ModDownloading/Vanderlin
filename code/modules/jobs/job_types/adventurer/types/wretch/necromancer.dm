@@ -84,7 +84,6 @@
 		"Random Wizard hat" = /obj/item/clothing/head/wizhat/random,
 		"Mage hood" = /obj/item/clothing/head/roguehood/colored/mage,
 		"Generic Wizard hat" = /obj/item/clothing/head/wizhat/gen,
-		"Mage hood" = /obj/item/clothing/head/roguehood/colored/mage,
 		"Black hood" = /obj/item/clothing/head/roguehood/colored/black,
 		"Ominous hood (skullcap)" = /obj/item/clothing/head/helmet/skullcap/cult,
 	)
