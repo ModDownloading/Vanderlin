@@ -1,6 +1,8 @@
 /datum/job/advclass/sacrestant/psydoniantemplar // A templar, but for the Inquisition
 	title = "Psydonian Templar"
-	tutorial = "You are among the strongest students of the Ordo Benetarus. Top of your classes in both physical skill and intellectual matters, you’re here to prove you’re worthy of becoming an inquisitor. One simple step, before your skill is recognized."
+	tutorial = "You are among the strongest students of the Ordo Benetarus. Top of your classes in both physical skill \
+	and intellectual matters, you’re here to prove you’re worthy of becoming an inquisitor. \
+	One simple step, before your skill is recognized."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/psydoniantemplar
@@ -14,18 +16,18 @@
 	) //4 Statline
 
 	skills = list(
-		/datum/skill/combat/swords = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/axesmaces = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/whipsflails = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/crossbows = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/bows = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/wrestling = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/unarmed = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/climbing = SKILL_LEVEL_NOVICE,
-		/datum/skill/misc/athletics = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/reading = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/shields = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/medicine = SKILL_LEVEL_NOVICE
+		/datum/skill/combat/swords = 3,
+		/datum/skill/combat/axesmaces = 3,
+		/datum/skill/combat/whipsflails = 3,
+		/datum/skill/combat/crossbows = 2,
+		/datum/skill/combat/bows = 2,
+		/datum/skill/combat/wrestling = 2,
+		/datum/skill/combat/unarmed = 3,
+		/datum/skill/misc/climbing = 1,
+		/datum/skill/misc/athletics = 3,
+		/datum/skill/misc/reading = 3,
+		/datum/skill/combat/shields = 3,
+		/datum/skill/misc/medicine = 1
 	)
 
 	traits = list(
