@@ -46,6 +46,7 @@
 
 /datum/outfit/bapprentice
 	name = "Smithy Apprentice"
+	shoes = /obj/item/clothing/shoes/simpleshoes
 	belt = /obj/item/storage/belt/leather/rope
 	beltr = /obj/item/key/blacksmith
 	backr = /obj/item/storage/backpack/satchel
@@ -54,11 +55,9 @@
 	. = ..()
 	if(equipped_human.gender == MALE)
 		pants = /obj/item/clothing/pants/tights/colored/random
-		shoes = /obj/item/clothing/shoes/simpleshoes
 		armor = /obj/item/clothing/armor/leather/vest
 		wrists = /obj/item/clothing/wrists/bracers/leather
 	else
 		armor = /obj/item/clothing/shirt/dress/gen/colored/random
-		shoes = /obj/item/clothing/shoes/simpleshoes
 		shirt = /obj/item/clothing/shirt/undershirt
 		cloak = /obj/item/clothing/cloak/apron/brown
