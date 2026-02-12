@@ -14,19 +14,19 @@
 	allowed_patrons = list(/datum/patron/godless/defiant) // This one has seen too much. Matthiosans are not compatible with Heartfelt.
 
 	skills = list(
-		/datum/skill/combat/axesmaces = SKILL_LEVEL_JOURNEYMAN, // Needed just for NPC's.
-		/datum/skill/misc/swimming = SKILL_LEVEL_MASTER,
-		/datum/skill/combat/wrestling = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/unarmed = SKILL_LEVEL_EXPERT, // They're not meant to kill.
-		/datum/skill/misc/climbing = SKILL_LEVEL_MASTER,
-		/datum/skill/craft/crafting = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/athletics = SKILL_LEVEL_EXPERT,
-		/datum/skill/misc/reading = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/sneaking = SKILL_LEVEL_LEGENDARY,
-		/datum/skill/misc/stealing = SKILL_LEVEL_LEGENDARY,
-		/datum/skill/misc/lockpicking = SKILL_LEVEL_MASTER,
-		/datum/skill/misc/sewing = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/craft/bombs = SKILL_LEVEL_JOURNEYMAN // To craft Smoke Bombs.
+		/datum/skill/combat/axesmaces = 3, // Needed just for NPC's.
+		/datum/skill/misc/swimming = 5,
+		/datum/skill/combat/wrestling = 3,
+		/datum/skill/combat/unarmed = 4, // They're not meant to kill.
+		/datum/skill/misc/climbing = 5,
+		/datum/skill/craft/crafting = 3,
+		/datum/skill/misc/athletics = 4,
+		/datum/skill/misc/reading = 3,
+		/datum/skill/misc/sneaking = 6,
+		/datum/skill/misc/stealing = 6,
+		/datum/skill/misc/lockpicking = 5,
+		/datum/skill/misc/sewing = 3,
+		/datum/skill/craft/bombs = 3 // To craft Smoke Bombs.
 	)
 
 	traits = list(
