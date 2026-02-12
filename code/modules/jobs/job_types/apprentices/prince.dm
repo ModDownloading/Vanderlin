@@ -51,7 +51,10 @@
 
 /datum/job/advclass/heir/daring
 	title = "Daring Twit"
-	tutorial = "You're a somebody, someone important. It only makes sense you want to make a name for yourself, to gain your own glory so people see how great you really are beyond your bloodline. Plus, if you're beloved by the people for your exploits you'll be chosen! Probably. Shame you're as useful and talented as a squire, despite your delusions to the contrary."
+	tutorial = "You're a somebody, someone important. It only makes sense you want to make a name for yourself, \
+	to gain your own glory so people see how great you really are beyond your bloodline. \
+	Plus, if you're beloved by the people for your exploits you'll be chosen! Probably. \
+	Shame you're as useful and talented as a squire, despite your delusions to the contrary."
 	outfit = /datum/outfit/heir/daring
 	category_tags = list(CTAG_HEIR)
 
@@ -97,7 +100,9 @@
 
 /datum/job/advclass/heir/aristocrat
 	title = "Sheltered Aristocrat"
-	tutorial = "Life has been kind to you; you've an entire keep at your disposal, servants to wait on you, and a whole retinue of guards to guard you. You've nothing to prove; just live the good life and you'll be a lord someday, too. A lack of ambition translates into a lacking skillset beyond schooling, though, and your breaks from boredom consist of being a damsel or court gossip."
+	tutorial = "Life has been kind to you; you've an entire keep at your disposal, servants to wait on you, and a whole retinue of guards to guard you. \
+	You've nothing to prove; just live the good life and you'll be a lord someday, too. \
+	A lack of ambition translates into a lacking skillset beyond schooling, though, and your breaks from boredom consist of being a damsel or court gossip."
 	outfit = /datum/outfit/heir/aristocrat
 	category_tags = list(CTAG_HEIR)
 	jobstats = list(
@@ -157,7 +162,9 @@
 
 /datum/job/advclass/heir/inbred
 	title = "Inbred Wastrel"
-	tutorial = "Your bloodline ensures Psydon smiles upon you by divine right, the blessing of nobility... until you were born, anyway. You are a child forsaken, and even though your body boils as you go about your day, your spine creaks, and your drooling form needs to be waited on tirelessly you are still considered more important then the peasant that keeps the town fed and warm. Remind them of that fact when your lungs are particularly pus free."
+	tutorial = "Your bloodline ensures Psydon smiles upon you by divine right, the blessing of nobility... until you were born, anyway. \
+	You are a child forsaken, and even though your body boils as you go about your day, your spine creaks, and your drooling form needs to be waited on tirelessly. \
+	You are still considered more important then the peasant that keeps the town fed and warm. Remind them of that fact when your lungs are particularly pus free."
 	outfit = /datum/outfit/heir/inbred
 	category_tags = list(CTAG_HEIR)
 	jobstats = list(
