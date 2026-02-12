@@ -45,14 +45,6 @@
 		TRAIT_NOBLE
 	)
 
-/datum/outfit/steward/pre_equip(mob/living/carbon/human/H)
-	..()
-	if(H.gender == FEMALE)
-		shirt = /obj/item/clothing/shirt/dress/stewarddress
-	else
-		shirt = /obj/item/clothing/shirt/undershirt/fancy
-		pants = /obj/item/clothing/pants/trou/leathertights
-
 /datum/job/steward/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	spawned.virginity = TRUE
