@@ -1,19 +1,23 @@
 
 /datum/job/advclass/puritan/ordinator
 	title = "Ordinator"
-	tutorial = "The head of the Ordo Benetarus, your lessons are the most brutal of them all. Through adversity and challenge, your students will learn what it means to stand in Psydon’s name, unwavering and unblinking. Your body as hard as steel, your skills tempered through battles unending, every monster you’ve faced has fallen before you. Your students march to their doom, but with your lessons, they may yet emerge shaped in Psydon’s image, and your own."
+	tutorial = "The head of the Ordo Benetarus, your lessons are the most brutal of them all. \
+	Through adversity and challenge, your students will learn what it means to stand in Psydon’s name, \
+	unwavering and unblinking. Your body as hard as steel, your skills tempered through battles unending, \
+	every monster you’ve faced has fallen before you. Your students march to their doom, but with your lessons, \
+	they may yet emerge shaped in Psydon’s image, and your own."
 	outfit = /datum/outfit/inquisitor/ordinator
 	spells = list(/datum/action/cooldown/spell/undirected/list_target/convert_role/adept)
 	category_tags = list(CTAG_PURITAN)
 
 	skills = list(
-		/datum/skill/misc/climbing = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/athletics = SKILL_LEVEL_EXPERT,
-		/datum/skill/combat/wrestling = SKILL_LEVEL_EXPERT,
-		/datum/skill/combat/unarmed = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/reading = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/medicine = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/firearms = SKILL_LEVEL_JOURNEYMAN,
+		/datum/skill/misc/climbing = 3,
+		/datum/skill/misc/athletics = 4,
+		/datum/skill/combat/wrestling = 4,
+		/datum/skill/combat/unarmed = 3,
+		/datum/skill/misc/reading = 3,
+		/datum/skill/misc/medicine = 3,
+		/datum/skill/combat/firearms = 3,
 	)
 
 	jobstats = list(
