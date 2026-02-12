@@ -34,6 +34,7 @@
 	name = "Adept"
 	shoes = /obj/item/clothing/shoes/boots
 	mask = /obj/item/clothing/face/facemask/silver
+	neck = /obj/item/clothing/neck/gorget/explosive
 	beltr = /obj/item/storage/belt/pouch/coins/poor
 	pants = /obj/item/clothing/pants/trou/leather
 	shirt = /obj/item/clothing/armor/gambeson/light/colored/black
