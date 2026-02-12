@@ -107,6 +107,7 @@ GLOBAL_LIST_EMPTY(lord_titles)
 /datum/outfit/lord
 	name = "Monarch"
 	head = /obj/item/clothing/head/crown/serpcrown
+	shoes = /obj/item/clothing/shoes/nobleboot
 	backr = /obj/item/storage/backpack/satchel
 	belt = /obj/item/storage/belt/leather/plaquegold
 	beltl = /obj/item/weapon/knife/dagger/steel/royal
@@ -133,12 +134,10 @@ GLOBAL_LIST_EMPTY(lord_titles)
 		pants = /obj/item/clothing/pants/trou/formal
 		shirt = /obj/item/clothing/shirt/undershirt/fancy
 		armor = /obj/item/clothing/armor/gambeson/arming
-		shoes = /obj/item/clothing/shoes/nobleboot
 		cloak = /obj/item/clothing/cloak/lordcloak
 	else
 		pants = /obj/item/clothing/pants/tights/colored/random
 		armor = /obj/item/clothing/shirt/dress/royal
-		shoes = /obj/item/clothing/shoes/nobleboot
 		cloak = /obj/item/clothing/cloak/lordcloak/ladycloak
 		wrists = /obj/item/clothing/wrists/royalsleeves
 
