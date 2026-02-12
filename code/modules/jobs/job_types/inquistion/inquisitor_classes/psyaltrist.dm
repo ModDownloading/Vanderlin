@@ -1,6 +1,8 @@
 /datum/job/advclass/sacrestant/psyaltrist
 	title = "Psyaltrist"
-	tutorial = "Every inquisitor has their second. You aim to keep spirits and faith high, while handling the needs of the inquisitor. Not a glamorous role, but a vital one. “Maybe his lordship would prefer the lute, today, over the viola?”"
+	tutorial = "Every inquisitor has their second. You aim to keep spirits and faith high, \
+	while handling the needs of the inquisitor. Not a glamorous role, but a vital one. \
+	“Maybe his lordship would prefer the lute, today, over the viola?”"
 	category_tags = list(CTAG_INQUISITION)
 	outfit = /datum/outfit/psyaltrist
 
@@ -10,16 +12,16 @@
 	) //4 Statline
 
 	skills = list(
-		/datum/skill/misc/music = SKILL_LEVEL_MASTER,
-		/datum/skill/magic/holy = SKILL_LEVEL_EXPERT,
-		/datum/skill/combat/knives = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/combat/wrestling = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/combat/unarmed = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/swimming = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/climbing = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/athletics = SKILL_LEVEL_EXPERT,
-		/datum/skill/misc/reading = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/medicine = SKILL_LEVEL_APPRENTICE
+		/datum/skill/misc/music = 5,
+		/datum/skill/magic/holy = 4,
+		/datum/skill/combat/knives = 3,
+		/datum/skill/combat/wrestling = 2,
+		/datum/skill/combat/unarmed = 2,
+		/datum/skill/misc/swimming = 3,
+		/datum/skill/misc/climbing = 3,
+		/datum/skill/misc/athletics = 4,
+		/datum/skill/misc/reading = 3,
+		/datum/skill/misc/medicine = 2
 	)
 
 	languages = list(
@@ -29,7 +31,8 @@
 		/datum/language/orcish
 	)
 
-	traits = list(	TRAIT_DODGEEXPERT,
+	traits = list(	
+		TRAIT_DODGEEXPERT,
 		TRAIT_EMPATH,
 		TRAIT_INQUISITION,
 		TRAIT_SILVER_BLESSED,
