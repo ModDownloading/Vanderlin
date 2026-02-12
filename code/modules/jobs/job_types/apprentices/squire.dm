@@ -29,8 +29,11 @@
 /datum/outfit/squire
 	name = "Squire"
 	shirt = /obj/item/clothing/shirt/undershirt/colored/guard
+	armor = /obj/item/clothing/armor/chainmail
 	pants = /obj/item/clothing/pants/chainlegs/iron
 	shoes = /obj/item/clothing/shoes/boots
+	gloves = /obj/item/clothing/gloves/leather
+	wrists = /obj/item/clothing/wrists/bracers/leather
 	belt = /obj/item/storage/belt/leather
 	beltl = /obj/item/storage/keyring/manorguard
 
@@ -82,9 +85,6 @@
 /datum/outfit/squire/lancer
 	name = "Pikeman Squire"
 	r_hand = /obj/item/weapon/polearm/spear
-	armor = /obj/item/clothing/armor/chainmail
-	gloves = /obj/item/clothing/gloves/leather
-	wrists = /obj/item/clothing/wrists/bracers/leather
 	backr = /obj/item/storage/backpack/satchel
 	cloak = /obj/item/clothing/cloak/stabard/guard
 	backpack_contents = list(
@@ -133,9 +133,6 @@
 
 /datum/outfit/squire/footman
 	name = "Footman Squire"
-	armor = /obj/item/clothing/armor/chainmail
-	gloves = /obj/item/clothing/gloves/leather
-	wrists = /obj/item/clothing/wrists/bracers/leather
 	backr = /obj/item/storage/backpack/satchel
 	beltr = /obj/item/weapon/sword
 	cloak = /obj/item/clothing/cloak/tabard/knight/guard
@@ -187,10 +184,7 @@
 /datum/outfit/squire/skirmisher
 	name = "Bowman Squire"
 	beltr = /obj/item/ammo_holder/quiver/arrows
-	armor = /obj/item/clothing/armor/chainmail
 	backl = /obj/item/gun/ballistic/revolver/grenadelauncher/bow/short
-	gloves = /obj/item/clothing/gloves/leather
-	wrists = /obj/item/clothing/wrists/bracers/leather
 	backr = /obj/item/storage/backpack/satchel
 	cloak = /obj/item/clothing/cloak/stabard/jupon/guard
 	backpack_contents = list(
