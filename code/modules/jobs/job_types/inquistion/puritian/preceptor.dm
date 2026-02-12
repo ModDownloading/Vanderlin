@@ -1,6 +1,7 @@
 /datum/job/advclass/puritan/preceptor
 	title = "Preceptor"
-	tutorial = "The head of the Ordo Benetarus, you stand as a pillar of discipline. With unwavering resolve and a fist of steel, you temper the untested into Psydon's dauntless warriors."
+	tutorial = "The head of the Ordo Benetarus, you stand as a pillar of discipline. \
+	With unwavering resolve and a fist of steel, you temper the untested into Psydon's dauntless warriors."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/job/preceptor
@@ -13,15 +14,15 @@
 		STATKEY_SPD = 2,
 	)
 	skills = list(
-		/datum/skill/misc/athletics = SKILL_LEVEL_EXPERT,
-		/datum/skill/combat/unarmed = SKILL_LEVEL_EXPERT,
-		/datum/skill/combat/wrestling = SKILL_LEVEL_EXPERT,
-		/datum/skill/misc/climbing = SKILL_LEVEL_EXPERT,
-		/datum/skill/misc/swimming = SKILL_LEVEL_JOURNEYMAN,
-		/datum/skill/misc/medicine = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/misc/reading = SKILL_LEVEL_APPRENTICE,
-		/datum/skill/craft/cooking = SKILL_LEVEL_NOVICE,
-		/datum/skill/combat/firearms = SKILL_LEVEL_JOURNEYMAN,
+		/datum/skill/misc/athletics = 4,
+		/datum/skill/combat/unarmed = 4,
+		/datum/skill/combat/wrestling = 4,
+		/datum/skill/misc/climbing = 4,
+		/datum/skill/misc/swimming = 3,
+		/datum/skill/misc/medicine = 2,
+		/datum/skill/misc/reading = 2,
+		/datum/skill/craft/cooking = 1,
+		/datum/skill/combat/firearms = 3,
 	)
 
 	traits = list(
@@ -60,8 +61,6 @@
 	shoes = /obj/item/clothing/shoes/psydonboots
 	armor = /obj/item/clothing/armor/regenerating/skin/disciple
 	backl = /obj/item/storage/backpack/satchel/otavan
-	backpack_contents = list(/obj/item/storage/keyring/inquisitor = 1,
-	/obj/item/paper/inqslip/arrival/inq = 1)
 	belt = /obj/item/storage/belt/leather/rope/dark
 	pants = /obj/item/clothing/pants/tights/colored/black
 	cloak = /obj/item/clothing/cloak/cape/inquisitor
@@ -71,4 +70,7 @@
 	neck = /obj/item/clothing/neck/psycross/g
 	wrists = /obj/item/clothing/wrists/bracers/naledi
 	ring = /obj/item/clothing/ring/signet
-
+	backpack_contents = list(
+		/obj/item/storage/keyring/inquisitor = 1,
+		/obj/item/paper/inqslip/arrival/inq = 1
+	)
