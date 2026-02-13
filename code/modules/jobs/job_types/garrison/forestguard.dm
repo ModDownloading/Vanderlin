@@ -222,8 +222,7 @@
 
 /datum/job/advclass/forestguard/ruffian
 	title = "Forest Ruffian"
-	tutorial = "For your terrible orphan pranks and antics in the city, you were rounded up by the city's Watch and put to work in the infamous forest garrison. \
-	\n\n 
+	tutorial = "For your terrible orphan pranks and antics in the city, you were rounded up by the city's Watch and put to work in the infamous forest garrison.\n\n 
 	A ruffian by circumstance, a proven listener of war stories - you might just become more than a troublemaker."
 	outfit = /datum/outfit/forestguard/ruffian
 	category_tags = list(CTAG_FORGARRISON)
